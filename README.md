@@ -11,7 +11,7 @@ For a manual start, these variables - as well as multiple variables concerning t
 Overall, you can configure the following variables:
 
 > - **numServers**: the number of servers to use (there is always a minimum threshold of servers to use for correctness; we need at least 2*c*l+2 for queries with at most c query conditions, and a maximum of l digits for any number in the uploaded table [l=8 for the first eight attributes of the *LINEITEM* table in TPC-H benchmark])
-> - **usePolicy**: true if you want to attach a policy to the data, false otherwise
+> - **attachPolicy**: true if you want to attach a policy to the data, false otherwise
 > - **batchSize**: the batchSize to use when uploading the secret share tables to the servers (= number of rows to use for each batch upload)
 > - **rowLimit**: the maximum number of rows to upload to the servers
 > - **columnPolicy**: whether to attach an attribute level policy (=true) or a tuple level policy (=false)
