@@ -23,7 +23,7 @@ Execution with the default values (numServers=200 and batchSize=100) does not re
 ## Manual Start ##
 First, you will need to resolve the project dependencies and build the project by running the command <code>gradle build</code>.
 
-This branch still uses policy attachment, just not defined by any predicates (only randomly attached by the number of user groups and accessibility rate of data items). For a manual start on this branch, you can use the <code>manual.Starter.main()</code> or manually follow this order:
+This branch uses policy attachment, but not defined by any predicates (only randomly attached by the number of user groups and accessibility rate of data items). For a manual start on this branch, you can use the <code>manual.Starter.main()</code> or manually follow this order:
 ```
 manual.RegistryHost.main()
 server.Server.main()
