@@ -43,3 +43,8 @@ Each run task requires a new terminal.
 For a correct startup with the latter, wait for a confirming console output of after calling <code>server.Server.main()</code> ("${numServers} servers are online!") and <code>owner.DataOwner.main()</code> ("finished uploading tables!").
 After calling <code>user.DataUser.main()</code>, you can input simple queries for the *LINEITEM* table (this prototype only supports count, sum and avg aggregation, query conditions with the same conditional type (AND/OR), and only simple query predicates like "attr=const").
 We only use the following attributes of the *LINEITEM* table: "orderkey", "partkey", "suppkey", "linenumber", "quantity", "extendedprice", "discount" and "tax".
+
+## Publication ##
+
+Meghdad Mirabi and Carsten Binnig. (2023). **QFilter: Towards a Fine-Grained Access Control for Aggregation Query Processing over Secret Shared Data**. In: 1st Workshop on Cloud Databases (CloudDB’23), Joint Workshop at 49th International Conference on Very Large Data Bases (VLDBW’23), Vancouver, Canada - August 28 to September 1, 2023.
+<p dir="auto"><a href="https://ceur-ws.org/Vol-3462/CloudDB2.pdf">The paper is available here.</a></p>
